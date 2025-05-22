@@ -1,0 +1,19 @@
+{
+  "name": "usefuljs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "prepublishOnly": "pnpm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": ["typescript", "utils", "helpers"],
+  "author": "fool",
+  "license": "GPL-3.0-only",
+  "packageManager": "pnpm@10.11.0"
+}
